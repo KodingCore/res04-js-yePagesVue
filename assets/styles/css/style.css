@@ -1,0 +1,243 @@
+html {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+}
+html body header {
+  color: white;
+}
+html body header .headHeader {
+  height: auto;
+  display: flex;
+  background-color: rgb(7, 59, 76);
+}
+html body header .headHeader .mark img {
+  margin: 10% 0 0 10%;
+}
+html body header .headHeader .nav {
+  display: flex;
+  align-items: center;
+}
+html body header .headHeader .nav ul {
+  display: flex;
+}
+html body header .headHeader .nav ul li {
+  margin-left: 8vw;
+  margin-top: 5%;
+}
+html body header .headHeader .nav ul li:hover {
+  color: rgb(255, 209, 102);
+  text-decoration: underline;
+  cursor: pointer;
+}
+html body header .headBody {
+  height: 400px;
+  background-image: url("../../images/home-books.png");
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+html body header .headBody .textHead {
+  text-align: center;
+  margin-bottom: 26px;
+}
+html body header .headBody .textHead h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+html body header .headBody .textHead h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(6, 214, 160);
+}
+html body .container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+html body .container aside {
+  margin-top: 80px;
+  margin-left: 1.5rem;
+}
+html body .container aside h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+html body .container aside h4 {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+html body .container aside li {
+  margin-top: 1rem;
+}
+html body .container aside li:hover {
+  color: rgb(255, 209, 102);
+  text-decoration: underline;
+  cursor: pointer;
+}
+html body .container div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+html body .container div h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 80px;
+  font-weight: bold;
+}
+html body .container div h3 span {
+  border-bottom: solid 4px red;
+}
+html body .container div #discover article {
+  width: 75%;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: 0.5fr 3fr;
+  grid-template-rows: repeat(0.1fr, 4);
+}
+html body .container div #discover article img {
+  margin-left: 15px;
+  grid-column: 1;
+  grid-row: 1/5;
+  height: 350px;
+}
+html body .container div #discover article h4 {
+  margin-left: 15px;
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  grid-column: 2;
+  grid-row: 1/2;
+}
+html body .container div #discover article h5 {
+  font-weight: bold;
+  margin-left: 15px;
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  color: rgb(17, 138, 178);
+  text-transform: uppercase;
+  grid-column: 2;
+  grid-row: 2/3;
+}
+html body .container div #discover article h6 {
+  margin-left: 15px;
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  grid-column: 2;
+  grid-row: 3/4;
+}
+html body .container div #discover article p {
+  margin-left: 15px;
+  margin-top: 1rem;
+  font-size: 1rem;
+  grid-column: 2;
+  grid-row: 4/5;
+}
+html body .container div #relationtitleSpan {
+  border-bottom: solid 4px green;
+}
+html body .container div #relations {
+  margin: 100px 0 0 0;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  text-align: center;
+}
+html body .container div #relations img {
+  height: 350px;
+}
+html body .container div #relations button {
+  position: relative;
+  background-color: rgb(17, 138, 178);
+  border: none;
+  margin: 30px auto;
+  border-radius: 10px;
+  width: 250px;
+  height: 40px;
+  bottom: 0;
+  color: white;
+  cursor: pointer;
+}
+html body .container div #filterTitleSpan {
+  border-bottom: solid 4px green;
+}
+html body .container div #filter {
+  margin: 100px 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  text-align: center;
+}
+html body .container div #filter article {
+  width: 25%;
+}
+html body .container div #filter article img {
+  height: 350px;
+}
+html body .container div #filter article button {
+  position: relative;
+  background-color: rgb(17, 138, 178);
+  border: none;
+  margin: 30px auto;
+  border-radius: 10px;
+  width: 250px;
+  height: 40px;
+  bottom: 0;
+  color: white;
+  cursor: pointer;
+}
+html body .container div #library {
+  margin: 100px auto 0 auto;
+  border-left: solid black 1px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+html body .container div #library article {
+  position: relative;
+  width: 25%;
+  height: 500px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+html body .container div #library article img {
+  height: 350px;
+}
+html body .container div #library article h4 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+html body .container div #library article p:nth-child(3) {
+  font-weight: bold;
+  color: rgb(17, 138, 178);
+}
+html body .container div #library article p:nth-child(4) {
+  font-size: 0.75rem;
+}
+html body .container div #library article button {
+  position: relative;
+  background-color: rgb(17, 138, 178);
+  border: none;
+  margin: 30px auto;
+  border-radius: 10px;
+  width: 250px;
+  height: 40px;
+  bottom: 0;
+  color: white;
+  cursor: pointer;
+}
+html body .container div #lastBtn {
+  margin: 30px auto;
+  border: none;
+  border-radius: 10px;
+  width: 250px;
+  height: 40px;
+  background-color: rgb(239, 71, 111);
+  color: white;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
