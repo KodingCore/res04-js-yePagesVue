@@ -1,11 +1,18 @@
+import { CreatArticles } from "./Article.js";
+import { CreatFilters } from "./Filters.js";
+
 let CreatMain = {
+    components : {
+        CreatArticles,
+        CreatFilters
+    },
     template: `  
         <main class="container">      
             <aside>
                 <h3>FILTRES</h3>
                 <h4>Catégories</h4>
                 <ul id="tabCateg">
-                    
+                    <CreatFilters/>
                 </ul>
             </aside>
             <div>
@@ -13,16 +20,16 @@ let CreatMain = {
                 <section id="discover">
 
                 </section>
-                <h3 id="relationtitle">D'autre livres dans la catégorie <span id="relationtitleSpan"></span></h3>
+                <h3 id="relationTitle" class="d-none">D'autre livres dans la catégorie <span id="relationTitleSpan"></span></h3>
                 <section id="relations">
 
                 </section>
                 <section id="library">
-
+                    <CreatArticles/>
                 </section>
-                <h3 id="filterTitle">Les livres de la catégorie <span id="filterTitleSpan"></span></h3>
+                <h3 id="filterTitle" class="d-none">Les livres de la catégorie <span id="filterTitleSpan"></span></h3>
                 <section id="filter">
-                    <li v-for="filter in filters" :filter="filter.filter"/>
+                    
                 </section>
                 <button id="lastBtn">PARCOURIR LA COLLECTION</button>
             </div>

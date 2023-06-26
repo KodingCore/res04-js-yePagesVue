@@ -119,10 +119,15 @@ html
                     font-size: 1.5rem;
                     margin-top: 80px;
                     font-weight: bold;
+                    
                     span
                     {
                         border-bottom: solid 4px red;
                     }
+                }
+
+                .d-none{
+                    display: none;
                 }
 
                 

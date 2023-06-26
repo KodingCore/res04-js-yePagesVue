@@ -91,6 +91,9 @@ html body .container div h3 {
 html body .container div h3 span {
   border-bottom: solid 4px red;
 }
+html body .container div .d-none {
+  display: none;
+}
 html body .container div #discover article {
   width: 75%;
   margin: 30px auto;
