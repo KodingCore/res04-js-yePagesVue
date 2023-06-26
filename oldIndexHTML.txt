@@ -34,8 +34,6 @@
                 <h1>YEPages</h1>
                 <h2 id="titrePage">La collection</h2>
             </div>
-            
-            
         </div>
     </header>
     

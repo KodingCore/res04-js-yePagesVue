@@ -4,7 +4,7 @@ class Library{
     #shelf;
     
     constructor(shelf){
-        this.#shelf = [];
+        this.#shelf = ["test"];
     }
     
     get shelf(){
